@@ -169,7 +169,8 @@
           "value": "BR",
           "synonyms": [
             "B R",
-            "Brasil"
+            "Brasil",
+            "br"
           ]
         },
         {
@@ -177,7 +178,8 @@
           "value": "AC",
           "synonyms": [
             "A C",
-            "Acre"
+            "Acre",
+            "ac"
           ]
         },
         {
@@ -185,7 +187,8 @@
           "value": "AL",
           "synonyms": [
             "A L",
-            "Alagoas"
+            "Alagoas",
+            "al"
           ]
         },
         {
@@ -194,7 +197,8 @@
           "synonyms": [
             "A P",
             "Amapá",
-            "Amapa"
+            "Amapa",
+            "ap"
           ]
         },
         {
@@ -211,7 +215,8 @@
           "value": "BA",
           "synonyms": [
             "B A",
-            "Bahia"
+            "Bahia",
+            "ba"
           ]
         },
         {
@@ -220,7 +225,8 @@
           "synonyms": [
             "G O",
             "Goiás",
-            "Goias"
+            "Goias",
+            "go"
           ]
         },
         {
@@ -228,74 +234,8 @@
           "value": "DF",
           "synonyms": [
             "D F",
-            "Distrito Federal"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MA",
-          "synonyms": [
-            "M A",
-            "Maranhão",
-            "Maranhao"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "PR",
-          "synonyms": [
-            "P R",
-            "Paraná",
-            "Parana"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MG",
-          "synonyms": [
-            "M G",
-            "Minas Gerais"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MS",
-          "synonyms": [
-            "M S",
-            "Mato Grosso do Sul"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "MT",
-          "synonyms": [
-            "M T",
-            "Mato Grosso"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "PE",
-          "synonyms": [
-            "P E",
-            "Pernambuco"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "PA",
-          "synonyms": [
-            "P A",
-            "Pará",
-            "Para"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "RJ",
-          "synonyms": [
-            "R J",
-            "Rio de Janeiro"
+            "Distrito Federal",
+            "df"
           ]
         },
         {
@@ -304,7 +244,55 @@
           "synonyms": [
             "E S",
             "Espírito Santo",
-            "Espirito Santo"
+            "Espirito Santo",
+            "es"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MA",
+          "synonyms": [
+            "M A",
+            "Maranhão",
+            "Maranhao",
+            "ma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MG",
+          "synonyms": [
+            "M G",
+            "Minas Gerais",
+            "mg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MS",
+          "synonyms": [
+            "M S",
+            "Mato Grosso do Sul",
+            "ms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MT",
+          "synonyms": [
+            "M T",
+            "Mato Grosso",
+            "mt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PA",
+          "synonyms": [
+            "P A",
+            "Pará",
+            "Para",
+            "pa"
           ]
         },
         {
@@ -313,7 +301,17 @@
           "synonyms": [
             "P B",
             "Paraíba",
-            "Paraiba"
+            "Paraiba",
+            "pb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PE",
+          "synonyms": [
+            "P E",
+            "Pernambuco",
+            "pe"
           ]
         },
         {
@@ -322,23 +320,27 @@
           "synonyms": [
             "P I",
             "Piauí",
-            "Piaui"
+            "Piaui",
+            "pi"
           ]
         },
         {
           "type": "synonyms",
-          "value": "RN",
+          "value": "PR",
           "synonyms": [
-            "R N",
-            "Rio Grande do Norte"
+            "P R",
+            "Paraná",
+            "Parana",
+            "pr"
           ]
         },
         {
           "type": "synonyms",
-          "value": "RS",
+          "value": "RJ",
           "synonyms": [
-            "R S",
-            "Rio Grande do Sul"
+            "R J",
+            "Rio de Janeiro",
+            "rj"
           ]
         },
         {
@@ -347,7 +349,26 @@
           "synonyms": [
             "C E",
             "Ceará",
-            "Ceara"
+            "Ceara",
+            "ce"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RN",
+          "synonyms": [
+            "R N",
+            "Rio Grande do Norte",
+            "rn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RS",
+          "synonyms": [
+            "R S",
+            "Rio Grande do Sul",
+            "rs"
           ]
         },
         {
@@ -356,31 +377,8 @@
           "synonyms": [
             "S P",
             "São Paulo",
-            "Sao Paulo"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "RR",
-          "synonyms": [
-            "R R",
-            "Roraima"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "TO",
-          "synonyms": [
-            "T O",
-            "Tocantis"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SC",
-          "synonyms": [
-            "S C",
-            "Santa Catarina"
+            "Sao Paulo",
+            "sp"
           ]
         },
         {
@@ -389,7 +387,26 @@
           "synonyms": [
             "R O",
             "Rondônia",
-            "Rondonia"
+            "Rondonia",
+            "ro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RR",
+          "synonyms": [
+            "R R",
+            "Roraima",
+            "rr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SC",
+          "synonyms": [
+            "S C",
+            "Santa Catarina",
+            "sc"
           ]
         },
         {
@@ -397,7 +414,17 @@
           "value": "SE",
           "synonyms": [
             "S E",
-            "Sergipe"
+            "Sergipe",
+            "se"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TO",
+          "synonyms": [
+            "T O",
+            "Tocantis",
+            "to"
           ]
         }
       ],
@@ -412,35 +439,27 @@
   },
   "dialog_nodes": [
     {
-      "type": "event_handler",
+      "type": "standard",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Digite a sigla de um Estado específico ou informe \"BR\" para todos os Estados"
+                "text": "Esses são os números dos novos casos de Covid19 nas últimas 24h: $resposta"
+              },
+              {
+                "text": "Gostaria de mais alguma informação?"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
-      "parent": "slot_8_1596487826306",
-      "event_name": "focus",
-      "dialog_node": "handler_5_1596487826319",
-      "previous_sibling": "handler_3_1596487826319"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_8_1596487826306",
-      "context": {
-        "sigla": "@sigla"
-      },
-      "conditions": "@sigla",
-      "event_name": "input",
-      "dialog_node": "handler_3_1596487826319"
+      "parent": "node_1_1597514746501",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "node_9_1596487986295"
     },
     {
       "type": "standard",
@@ -504,37 +523,71 @@
       "dialog_node": "handler_8_1596654964356"
     },
     {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite a sigla de um Estado específico ou informe \"BR\" para todos os Estados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1596487826306",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1596487826319",
+      "previous_sibling": "handler_3_1596487826319"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1596487826306",
+      "context": {
+        "sigla": "@sigla"
+      },
+      "conditions": "@sigla",
+      "event_name": "input",
+      "dialog_node": "handler_3_1596487826319"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_8_1596487748595",
       "variable": "$sigla",
       "dialog_node": "slot_8_1596487826306",
-      "previous_sibling": "node_9_1596487986295"
+      "previous_sibling": "node_1_1597514746501"
     },
     {
       "type": "standard",
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": "Esses são os números dos novos casos de Covid19 nas últimas 24h: $resposta"
-              },
-              {
-                "text": "Gostaria de mais alguma informação?"
-              }
-            ],
+            "values": [],
             "response_type": "text",
-            "selection_policy": "multiline"
+            "selection_policy": "sequential"
           }
         ]
       },
       "parent": "node_8_1596487748595",
-      "context": {
-        "sigla": null
+      "actions": [
+        {
+          "name": "novos",
+          "type": "client",
+          "parameters": {
+            "sigla": "$sigla"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "next_step": {
+        "behavior": "skip_user_input"
       },
       "conditions": "true",
-      "dialog_node": "node_9_1596487986295"
+      "dialog_node": "node_1_1597514746501"
     },
     {
       "type": "response_condition",
@@ -547,7 +600,7 @@
         }
       },
       "parent": "node_10_1591226594682",
-      "conditions": "now().after('12:00:00') and now().before('18:00:00')",
+      "conditions": "now().after('12:00:00')",
       "dialog_node": "response_10_1591228478726",
       "previous_sibling": "response_10_1591228440025"
     },
@@ -618,24 +671,15 @@
       "output": {
         "generic": [
           {
-            "values": [],
+            "values": [
+              {
+                "text": "Para saber os dados de algum Estado específico digite a sigla do Estado, caso contrário informe \"BR\" para todos os Estados"
+              }
+            ],
             "response_type": "text",
             "selection_policy": "sequential"
           }
         ]
-      },
-      "actions": [
-        {
-          "name": "novos",
-          "type": "client",
-          "parameters": {
-            "sigla": "$sigla"
-          },
-          "result_variable": "resposta"
-        }
-      ],
-      "next_step": {
-        "behavior": "skip_user_input"
       },
       "conditions": "#novos",
       "dialog_node": "node_8_1596487748595",
