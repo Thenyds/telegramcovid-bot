@@ -439,13 +439,20 @@
   },
   "dialog_nodes": [
     {
+      "type": "slot",
+      "parent": "node_3_1596485822236",
+      "variable": "$sigla",
+      "dialog_node": "slot_4_1596654964341",
+      "previous_sibling": "node_1_1597519035816"
+    },
+    {
       "type": "standard",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Esses são os números dos novos casos de Covid19 nas últimas 24h: $resposta"
+                "text": "Esses são os números totais acumulados de casos de Covid19: $resposta"
               },
               {
                 "text": "Gostaria de mais alguma informação?"
@@ -456,45 +463,12 @@
           }
         ]
       },
-      "parent": "node_1_1597514746501",
-      "context": {},
-      "conditions": "true",
-      "dialog_node": "node_9_1596487986295"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
       "parent": "node_3_1596485822236",
-      "actions": [
-        {
-          "name": "totais",
-          "type": "client",
-          "parameters": {
-            "sigla": "$sigla"
-          },
-          "result_variable": "resposta"
-        }
-      ],
-      "next_step": {
-        "behavior": "skip_user_input"
+      "context": {
+        "sigla": null
       },
       "conditions": "true",
-      "dialog_node": "node_2_1596486942482",
-      "previous_sibling": "slot_4_1596654964341"
-    },
-    {
-      "type": "slot",
-      "parent": "node_3_1596485822236",
-      "variable": "$sigla",
-      "dialog_node": "slot_4_1596654964341"
+      "dialog_node": "node_1_1597519035816"
     },
     {
       "type": "event_handler",
@@ -559,35 +533,32 @@
       "parent": "node_8_1596487748595",
       "variable": "$sigla",
       "dialog_node": "slot_8_1596487826306",
-      "previous_sibling": "node_1_1597514746501"
+      "previous_sibling": "node_9_1596487986295"
     },
     {
       "type": "standard",
       "output": {
         "generic": [
           {
-            "values": [],
+            "values": [
+              {
+                "text": "Esses são os números dos novos casos de Covid19 nas últimas 24h: $resposta"
+              },
+              {
+                "text": "Gostaria de mais alguma informação?"
+              }
+            ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
       "parent": "node_8_1596487748595",
-      "actions": [
-        {
-          "name": "novos",
-          "type": "client",
-          "parameters": {
-            "sigla": "$sigla"
-          },
-          "result_variable": "resposta"
-        }
-      ],
-      "next_step": {
-        "behavior": "skip_user_input"
+      "context": {
+        "sigla": null
       },
       "conditions": "true",
-      "dialog_node": "node_1_1597514746501"
+      "dialog_node": "node_9_1596487986295"
     },
     {
       "type": "response_condition",
@@ -645,41 +616,28 @@
       "dialog_node": "response_10_1591228440025"
     },
     {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Esses são os números totais acumulados: $resposta"
-              },
-              {
-                "text": "Gostaria de mais alguma informação?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "parent": "node_2_1596486942482",
-      "conditions": "true",
-      "dialog_node": "node_2_1596487161894"
-    },
-    {
       "type": "frame",
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": "Para saber os dados de algum Estado específico digite a sigla do Estado, caso contrário informe \"BR\" para todos os Estados"
-              }
-            ],
+            "values": [],
             "response_type": "text",
             "selection_policy": "sequential"
           }
         ]
+      },
+      "actions": [
+        {
+          "name": "novos",
+          "type": "client",
+          "parameters": {
+            "sigla": "$sigla"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "next_step": {
+        "behavior": "skip_user_input"
       },
       "conditions": "#novos",
       "dialog_node": "node_8_1596487748595",
@@ -775,15 +733,24 @@
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": "Para saber os dados de algum Estado específico digite a sigla do Estado, caso contrário informe \"BR\" para todos os Estados"
-              }
-            ],
+            "values": [],
             "response_type": "text",
             "selection_policy": "sequential"
           }
         ]
+      },
+      "actions": [
+        {
+          "name": "totais",
+          "type": "client",
+          "parameters": {
+            "sigla": "$sigla"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "next_step": {
+        "behavior": "skip_user_input"
       },
       "conditions": "#totais",
       "dialog_node": "node_3_1596485822236",
